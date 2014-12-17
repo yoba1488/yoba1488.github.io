@@ -46,11 +46,8 @@ h1{
                         content: '';
                         position: absolute;
                         left: -11px;
-                        bottom: -10px;
-                        width: 3000px;
-                        height: 4px;
-                        background: url(../img/line.png) no-repeat;
-                        background-position: 0% 100%;
+                        bottom: -6px;
+                        @extend .sprites-line;
                     }
                 }
 }
@@ -202,14 +199,13 @@ article{
     .nstSlider{
         margin: 0 0 0 6px;
         width: 100%;
-        height: 60px;
-        background: url(../img/slider.png);
+        background-color: transparent;
+        @extend .sprites-slider;
         .leftGrip{
             position: relative;
             top: 10px;
-            width: 17px;
-            height: 14px;
-            background: url(../img/triangle.png);
+            background-color: transparent;
+            @extend .sprites-triangle;
         }
     }
     .description{

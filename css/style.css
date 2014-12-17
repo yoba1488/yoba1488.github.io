@@ -63,9 +63,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 72, sprites/*.png */
-.sprites-sprite, .sprites-checkbox-checked, .skills form div label input[type="checkbox"]:checked + span:after, .sprites-checkbox, .skills form div label input[type="checkbox"] + span, .sprites-radio-checked, article .personal-data form label input[type="radio"]:checked + span:after, .sprites-radio, article .personal-data form label input[type="radio"] + span {
-  background-image: url('../img/sprites-sfc6c7380fe.png');
+/* line 96, sprites/*.png */
+.sprites-sprite, .sprites-checkbox-checked, .skills form div label input[type="checkbox"]:checked + span:after, .sprites-checkbox, .skills form div label input[type="checkbox"] + span, .sprites-line, .row-underline span:after, article .personal-data ul li span:after, .sprites-radio-checked, article .personal-data form label input[type="radio"]:checked + span:after, .sprites-radio, article .personal-data form label input[type="radio"] + span, .sprites-slider, .js-skill .nstSlider, .sprites-triangle, .js-skill .nstSlider .leftGrip {
+  background-image: url('../img/sprites-sfc3a9338e9.png');
   background-repeat: no-repeat;
 }
 
@@ -84,17 +84,38 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* line 84, ../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
-.sprites-radio-checked, article .personal-data form label input[type="radio"]:checked + span:after {
+.sprites-line, .row-underline span:after, article .personal-data ul li span:after {
   background-position: 0 -45px;
+  height: 9px;
+  width: 700px;
+}
+
+/* line 84, ../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-radio-checked, article .personal-data form label input[type="radio"]:checked + span:after {
+  background-position: 0 -54px;
   height: 27px;
   width: 23px;
 }
 
 /* line 84, ../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprites-radio, article .personal-data form label input[type="radio"] + span {
-  background-position: 0 -72px;
+  background-position: 0 -81px;
   height: 45px;
   width: 41px;
+}
+
+/* line 84, ../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-slider, .js-skill .nstSlider {
+  background-position: 0 -126px;
+  height: 60px;
+  width: 777px;
+}
+
+/* line 84, ../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-triangle, .js-skill .nstSlider .leftGrip {
+  background-position: 0 -186px;
+  height: 14px;
+  width: 17px;
 }
 
 /* line 8, ../scss/style.scss */
@@ -148,89 +169,85 @@ h1 {
   content: '';
   position: absolute;
   left: -11px;
-  bottom: -10px;
-  width: 3000px;
-  height: 4px;
-  background: url(../img/line.png) no-repeat;
-  background-position: 0% 100%;
+  bottom: -6px;
 }
 
-/* line 58, ../scss/style.scss */
+/* line 55, ../scss/style.scss */
 header {
   margin: 60px 0 30px 0;
 }
-/* line 60, ../scss/style.scss */
+/* line 57, ../scss/style.scss */
 header .logo {
   width: 154px;
   float: left;
 }
-/* line 63, ../scss/style.scss */
+/* line 60, ../scss/style.scss */
 header .logo span {
   position: relative;
   top: -18px;
   left: 8px;
   font: 10px/33.35px 'PT Sans', sans-serif;
 }
-/* line 70, ../scss/style.scss */
+/* line 67, ../scss/style.scss */
 header .top-secret {
   float: right;
   margin: -12px 0 0 0;
 }
 
-/* line 76, ../scss/style.scss */
+/* line 73, ../scss/style.scss */
 article, footer {
   width: 770px;
   margin: 0 auto;
 }
 
-/* line 82, ../scss/style.scss */
+/* line 79, ../scss/style.scss */
 article .content-header {
   margin: 0 0 51px 0;
   text-align: center;
 }
-/* line 85, ../scss/style.scss */
+/* line 82, ../scss/style.scss */
 article .content-header img {
   margin: 0 0 0 -28px;
 }
-/* line 89, ../scss/style.scss */
+/* line 86, ../scss/style.scss */
 article .personal-data {
   font: 22.43px 'PT Sans', sans-serif;
   font-weight: bold;
 }
-/* line 92, ../scss/style.scss */
+/* line 89, ../scss/style.scss */
 article .personal-data ul {
   margin: 0 0 4px 0;
 }
-/* line 98, ../scss/style.scss */
+/* line 95, ../scss/style.scss */
 article .personal-data form {
   margin: 0 0 41px 0;
 }
-/* line 100, ../scss/style.scss */
+/* line 97, ../scss/style.scss */
 article .personal-data form a {
   margin: 0 19px 0 0;
   color: #014f98;
 }
-/* line 103, ../scss/style.scss */
+/* line 100, ../scss/style.scss */
 article .personal-data form a:hover {
   text-decoration: none;
 }
-/* line 107, ../scss/style.scss */
+/* line 104, ../scss/style.scss */
 article .personal-data form label {
   margin: 0 16px 0 0;
   font: 23px 'PT Sans', sans-serif;
   font-weight: bold;
 }
-/* line 111, ../scss/style.scss */
+/* line 108, ../scss/style.scss */
 article .personal-data form label input[type="radio"] {
   display: none;
 }
-/* line 114, ../scss/style.scss */
+/* line 111, ../scss/style.scss */
 article .personal-data form label input[type="radio"] + span {
   display: inline-block;
   position: relative;
   top: 16px;
 }
-/* line 121, ../scss/style.scss */
+/* line 118, ../scss/style.scss */
 article .personal-data form label input[type="radio"]:checked + span:after {
   content: '';
   position: absolute;
@@ -238,15 +255,15 @@ article .personal-data form label input[type="radio"]:checked + span:after {
   left: 9px;
 }
 
-/* line 135, ../scss/style.scss */
+/* line 132, ../scss/style.scss */
 .skills {
   margin: 0 0 66px 0;
 }
-/* line 137, ../scss/style.scss */
+/* line 134, ../scss/style.scss */
 .skills h1 {
   margin: 0 0 10px 0;
 }
-/* line 140, ../scss/style.scss */
+/* line 137, ../scss/style.scss */
 .skills p {
   margin: 0 0 19px 0;
   padding: 0 0 0 19px;
@@ -255,7 +272,7 @@ article .personal-data form label input[type="radio"]:checked + span:after {
   color: #3d3d3d;
   font: 14px/22px 'PT Sans', sans-serif;
 }
-/* line 147, ../scss/style.scss */
+/* line 144, ../scss/style.scss */
 .skills p:before {
   content: '*';
   position: absolute;
@@ -263,16 +280,16 @@ article .personal-data form label input[type="radio"]:checked + span:after {
   top: 9px;
   font-size: 36px;
 }
-/* line 156, ../scss/style.scss */
+/* line 153, ../scss/style.scss */
 .skills form div {
   float: left;
   width: 33.33%;
 }
-/* line 160, ../scss/style.scss */
+/* line 157, ../scss/style.scss */
 .skills form div:last-child label {
   margin-left: 26px;
 }
-/* line 164, ../scss/style.scss */
+/* line 161, ../scss/style.scss */
 .skills form div label {
   padding: 0 0 0 27px;
   margin: 0 0 10px 0;
@@ -282,11 +299,11 @@ article .personal-data form label input[type="radio"]:checked + span:after {
   font-weight: bold;
   cursor: pointer;
 }
-/* line 172, ../scss/style.scss */
+/* line 169, ../scss/style.scss */
 .skills form div label input[type="checkbox"] {
   display: none;
 }
-/* line 175, ../scss/style.scss */
+/* line 172, ../scss/style.scss */
 .skills form div label input[type="checkbox"] + span {
   margin: 0 9px 0 0;
   position: absolute;
@@ -294,7 +311,7 @@ article .personal-data form label input[type="radio"]:checked + span:after {
   top: 5px;
   display: inline-block;
 }
-/* line 184, ../scss/style.scss */
+/* line 181, ../scss/style.scss */
 .skills form div label input[type="checkbox"]:checked + span:after {
   content: '';
   position: absolute;
@@ -302,67 +319,64 @@ article .personal-data form label input[type="radio"]:checked + span:after {
   bottom: 3px;
 }
 
-/* line 197, ../scss/style.scss */
+/* line 194, ../scss/style.scss */
 .js-skill {
   margin: 0 0 46px 0;
 }
-/* line 199, ../scss/style.scss */
+/* line 196, ../scss/style.scss */
 .js-skill h1 {
   margin: 0 0px 14px 10px;
 }
-/* line 202, ../scss/style.scss */
+/* line 199, ../scss/style.scss */
 .js-skill .nstSlider {
   margin: 0 0 0 6px;
   width: 100%;
-  height: 60px;
-  background: url(../img/slider.png);
+  background-color: transparent;
 }
-/* line 207, ../scss/style.scss */
+/* line 204, ../scss/style.scss */
 .js-skill .nstSlider .leftGrip {
   position: relative;
   top: 10px;
-  width: 17px;
-  height: 14px;
-  background: url(../img/triangle.png);
+  background-color: transparent;
 }
-/* line 215, ../scss/style.scss */
+/* line 211, ../scss/style.scss */
 .js-skill .description {
   margin: -3px 0 0 0;
   font: 13px/19px 'PT Sans', sans-serif;
   font-weight: bold;
 }
-/* line 219, ../scss/style.scss */
+/* line 215, ../scss/style.scss */
 .js-skill .description li {
   display: inline-block;
   float: left;
 }
-/* line 222, ../scss/style.scss */
+/* line 218, ../scss/style.scss */
 .js-skill .description li:nth-child(1) {
   margin: 0px 83px 0 13px;
 }
-/* line 225, ../scss/style.scss */
+/* line 221, ../scss/style.scss */
 .js-skill .description li:nth-child(2) {
   margin: 0 61px 0 0;
 }
-/* line 228, ../scss/style.scss */
+/* line 224, ../scss/style.scss */
 .js-skill .description li:nth-child(3) {
   margin: 0 81px 0 0;
 }
 
-/* line 236, ../scss/style.scss */
+/* line 232, ../scss/style.scss */
 footer .row-underline, footer article .personal-data ul li, article .personal-data ul footer li {
   margin: 0 0 58px 0;
   float: left;
   font: 22.43px 'PT Sans', sans-serif;
   font-weight: bold;
 }
-/* line 241, ../scss/style.scss */
+/* line 237, ../scss/style.scss */
 footer .row-underline span, footer article .personal-data ul li span, article .personal-data ul footer li span {
   top: -14px;
   margin: 0px 0 0 10px;
   padding: 0 16px 0 0;
 }
-/* line 245, ../scss/style.scss */
+/* line 241, ../scss/style.scss */
 footer .row-underline span:after, footer article .personal-data ul li span:after, article .personal-data ul footer li span:after {
   bottom: -6px;
 }
