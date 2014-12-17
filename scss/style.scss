@@ -6,8 +6,15 @@ $sprites-sprite-dimensions: true;
 @include all-sprites-sprites;
 
 body{
-    background: url(../img/pattern.jpg);
     color: #2f1b15;
+    background: #797979;
+}
+
+.bg-pattern{
+    padding-top: 60px;
+    margin: 0 auto;
+    background: url(../img/pattern.jpg);
+    width: 1000px;
 }
 
 .wrapper{

@@ -9,80 +9,82 @@
     <title>Тестовое испытание,</title>
 </head>
 <body>
-    <div class="wrapper">
-        <header class="clearfix">
-            <div class="logo">
-               <a href="http://www.csssr.ru/"><img src="img/logo.png" alt="logo" width="154" height="52"></a>
-                <span>Секретный архив учреждения</span>
+        <div class="bg-pattern">
+            <div class="wrapper">
+                <header class="clearfix">
+                    <div class="logo">
+                       <a href="http://www.csssr.ru/"><img src="img/logo.png" alt="logo" width="154" height="52"></a>
+                        <span>Секретный архив учреждения</span>
+                    </div>
+                    <img src="img/top-secret.png" alt="top-secret" class="top-secret">
+                </header>
+                <article>
+                   <div class="content-header">
+                       <img src="img/file.png" alt="file">
+                   </div>
+                    <section class="personal-data">
+                        <ul>
+                            <li>Полное ФИО<span>Иванов Иван Иванович</span></li>
+                            <li>Год рождения<span>1990</span></li>
+                            <li>Место жительства<span>г. Иваново, Россия</span></li>
+                            <li>Скайп<span>ivanov</span></li>
+                            <li>Почта<span>ivanov@gmail.com</span></li>
+                        </ul>
+                        <form>
+                            Выпускник <a href="http://htmlacademy.ru/">htmlacademy.ru</a>
+                            <label for="yes"><input id="yes" name="radio"  type="radio" value="1"><span></span>да</label><label for="no"><input id="no" name="radio" type="radio" value="2" checked><span></span>нет</label>
+                        </form>
+                    </section>
+                    <section class="skills">
+                       <h1>Практические навыки</h1>
+                       <p>Отемтьте только те технологии и типы задач, с которыми вы хорошо знакомы. Отсутсвие опыта отнюдь не означает, что у вас меньше шансов стать нашим сотрудником. Это означает, что вы будете получать те задачи, с которыми гарантировано будете справляться.</p>
+                        <form class="clearfix">
+                            <div>
+                                <label for="item1"><input id="item1" type="checkbox"><span></span>Методология БЭМ</label>
+                                <label for="item2"><input id="item2" type="checkbox" checked><span></span>jQuery</label>
+                                <label for="item3"><input id="item3" type="checkbox"><span></span>Использую GRUNT</label>
+                                <label for="item4"><input id="item4" type="checkbox"><span></span>HAML</label>
+                                <label for="item5"><input id="item5" type="checkbox" checked><span></span>SASS</label>
+                                <label for="item6"><input id="item6" type="checkbox"><span></span>LESS</label>
+                                <label for="item7"><input id="item7" type="checkbox"><span></span>CoffeeScript</label>
+                            </div>
+                            <div>
+                                <label for="item8"><input id="item8" type="checkbox"><span></span>Jade</label>
+                                <label for="item9"><input id="item9" type="checkbox"><span></span>Stylus</label>
+                                <label for="item10"><input id="item10" type="checkbox"><span></span>Знаю (изучаю) Angular</label>
+                                <label for="item11"><input id="item11" type="checkbox"><span></span>Верстка под Android</label>
+                                <label for="item12"><input id="item12" type="checkbox"><span></span>Верстка под iOS</label>
+                                <label for="item13"><input id="item13" type="checkbox"><span></span>Верстка под Windows Phone</label>
+                            </div>
+                            <div>
+                                <label for="item14"><input id="item14" type="checkbox"><span></span>Верстка рассылок</label>
+                                <label for="item15"><input id="item15" type="checkbox" checked><span></span>Адаптивная верстка</label>
+                                <label for="item16"><input id="item16" type="checkbox" checked><span></span>Использую Dropbox</label>
+                                <label for="item17"><input id="item17" type="checkbox" checked><span></span>Использую Gmail</label>
+                                <label for="item18"><input id="item18" type="checkbox" checked><span></span>Использую GitHub</label>
+                            </div>
+                        </form>
+                    </section>
+                    <section class="js-skill">
+                        <h1>Уровень владения JavaScript</h1>
+                        <div class="nstSlider" data-range_min="-31.2" data-range_max="127" data-cur_min="0">
+                            <div class="leftGrip"></div>
+                        </div>
+                        <ul class="description clearfix">
+                            <li>Не владею</li>
+                            <li>Использую готовые решения</li>
+                            <li>Использую готовые решения<br> и умею их переделывать</li>
+                            <li>Пишу сложные скрипты</li>
+                        </ul>
+                    </section>
+                </article>
+                <footer class="clearfix">
+                    <div class="row-underline">
+                        Дата заполенения <span>01.01.2014</span>
+                    </div>
+                </footer>
             </div>
-            <img src="img/top-secret.png" alt="top-secret" class="top-secret">
-        </header>
-        <article>
-           <div class="content-header">
-               <img src="img/file.png" alt="file">
-           </div>
-            <section class="personal-data">
-                <ul>
-                    <li>Полное ФИО<span>Иванов Иван Иванович</span></li>
-                    <li>Год рождения<span>1990</span></li>
-                    <li>Место жительства<span>г. Иваново, Россия</span></li>
-                    <li>Скайп<span>ivanov</span></li>
-                    <li>Почта<span>ivanov@gmail.com</span></li>
-                </ul>
-                <form>
-                    Выпускник <a href="http://htmlacademy.ru/">htmlacademy.ru</a>
-                    <label for="yes"><input id="yes" name="radio"  type="radio" value="1"><span></span>да</label><label for="no"><input id="no" name="radio" type="radio" value="2" checked><span></span>нет</label>
-                </form>
-            </section>
-            <section class="skills">
-               <h1>Практические навыки</h1>
-               <p>Отемтьте только те технологии и типы задач, с которыми вы хорошо знакомы. Отсутсвие опыта отнюдь не означает, что у вас меньше шансов стать нашим сотрудником. Это означает, что вы будете получать те задачи, с которыми гарантировано будете справляться.</p>
-                <form class="clearfix">
-                    <div>
-                        <label for="item1"><input id="item1" type="checkbox"><span></span>Методология БЭМ</label>
-                        <label for="item2"><input id="item2" type="checkbox" checked><span></span>jQuery</label>
-                        <label for="item3"><input id="item3" type="checkbox"><span></span>Использую GRUNT</label>
-                        <label for="item4"><input id="item4" type="checkbox"><span></span>HAML</label>
-                        <label for="item5"><input id="item5" type="checkbox" checked><span></span>SASS</label>
-                        <label for="item6"><input id="item6" type="checkbox"><span></span>LESS</label>
-                        <label for="item7"><input id="item7" type="checkbox"><span></span>CoffeeScript</label>
-                    </div>
-                    <div>
-                        <label for="item8"><input id="item8" type="checkbox"><span></span>Jade</label>
-                        <label for="item9"><input id="item9" type="checkbox"><span></span>Stylus</label>
-                        <label for="item10"><input id="item10" type="checkbox"><span></span>Знаю (изучаю) Angular</label>
-                        <label for="item11"><input id="item11" type="checkbox"><span></span>Верстка под Android</label>
-                        <label for="item12"><input id="item12" type="checkbox"><span></span>Верстка под iOS</label>
-                        <label for="item13"><input id="item13" type="checkbox"><span></span>Верстка под Windows Phone</label>
-                    </div>
-                    <div>
-                        <label for="item14"><input id="item14" type="checkbox"><span></span>Верстка рассылок</label>
-                        <label for="item15"><input id="item15" type="checkbox" checked><span></span>Адаптивная верстка</label>
-                        <label for="item16"><input id="item16" type="checkbox" checked><span></span>Использую Dropbox</label>
-                        <label for="item17"><input id="item17" type="checkbox" checked><span></span>Использую Gmail</label>
-                        <label for="item18"><input id="item18" type="checkbox" checked><span></span>Использую GitHub</label>
-                    </div>
-                </form>
-            </section>
-            <section class="js-skill">
-                <h1>Уровень владения JavaScript</h1>
-                <div class="nstSlider" data-range_min="-31.2" data-range_max="127" data-cur_min="0">
-                    <div class="leftGrip"></div>
-                </div>
-                <ul class="description clearfix">
-                    <li>Не владею</li>
-                    <li>Использую готовые решения</li>
-                    <li>Использую готовые решения<br> и умею их переделывать</li>
-                    <li>Пишу сложные скрипты</li>
-                </ul>
-            </section>
-        </article>
-        <footer class="clearfix">
-            <div class="row-underline">
-                Дата заполенения <span>01.01.2014</span>
-            </div>
-        </footer>
-    </div>
+        </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/jquery.nstSlider.js"></script>
     <script src="js/main.js"></script>
