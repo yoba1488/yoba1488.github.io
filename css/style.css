@@ -1,0 +1,360 @@
+/* line 5, ../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 72, sprites/*.png */
+.sprites-sprite, .sprites-checkbox-checked, .skills form div label input[type="checkbox"]:checked + span:after, .sprites-checkbox, .skills form div label input[type="checkbox"] + span, .sprites-radio-checked, article .personal-data form label input[type="radio"]:checked + span:after, .sprites-radio, article .personal-data form label input[type="radio"] + span {
+  background-image: url('../img/sprites-sfc6c7380fe.png');
+  background-repeat: no-repeat;
+}
+
+/* line 84, ../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-checkbox-checked, .skills form div label input[type="checkbox"]:checked + span:after {
+  background-position: 0 0;
+  height: 27px;
+  width: 21px;
+}
+
+/* line 84, ../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-checkbox, .skills form div label input[type="checkbox"] + span {
+  background-position: 0 -27px;
+  height: 18px;
+  width: 19px;
+}
+
+/* line 84, ../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-radio-checked, article .personal-data form label input[type="radio"]:checked + span:after {
+  background-position: 0 -45px;
+  height: 27px;
+  width: 23px;
+}
+
+/* line 84, ../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-radio, article .personal-data form label input[type="radio"] + span {
+  background-position: 0 -72px;
+  height: 45px;
+  width: 41px;
+}
+
+/* line 8, ../scss/style.scss */
+body {
+  background: url(../img/pattern.jpg);
+  color: #2f1b15;
+}
+
+/* line 13, ../scss/style.scss */
+.wrapper {
+  width: 900px;
+  margin: 0 auto;
+}
+
+/* line 18, ../scss/style.scss */
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* line 24, ../scss/style.scss */
+h1 {
+  font: 22.43px 'PT Sans', sans-serif;
+  font-weight: bold;
+}
+
+/* line 29, ../scss/style.scss */
+.row-underline, article .personal-data ul li {
+  padding: 13px 0 15px 0;
+  overflow: hidden;
+}
+/* line 32, ../scss/style.scss */
+.row-underline span, article .personal-data ul li span {
+  position: relative;
+  top: -15px;
+  margin: 0 0 0 27px;
+  display: inline-block;
+  font: 30px 'Courier New', sans-serif;
+}
+/* line 38, ../scss/style.scss */
+.row-underline span:after, article .personal-data ul li span:after {
+  content: '';
+  position: absolute;
+  left: -11px;
+  bottom: -10px;
+  width: 3000px;
+  height: 4px;
+  background: url(../img/line.png) no-repeat;
+  background-position: 0% 100%;
+}
+
+/* line 51, ../scss/style.scss */
+header {
+  margin: 60px 0 30px 0;
+}
+/* line 53, ../scss/style.scss */
+header .logo {
+  width: 154px;
+  float: left;
+}
+/* line 56, ../scss/style.scss */
+header .logo span {
+  position: relative;
+  top: -18px;
+  left: 8px;
+  font: 10px/33.35px 'PT Sans', sans-serif;
+}
+/* line 63, ../scss/style.scss */
+header .top-secret {
+  float: right;
+  margin: -12px 0 0 0;
+}
+
+/* line 69, ../scss/style.scss */
+article, footer {
+  width: 770px;
+  margin: 0 auto;
+}
+
+/* line 75, ../scss/style.scss */
+article .content-header {
+  margin: 0 0 51px 0;
+  text-align: center;
+}
+/* line 78, ../scss/style.scss */
+article .content-header img {
+  margin: 0 0 0 -28px;
+}
+/* line 82, ../scss/style.scss */
+article .personal-data {
+  font: 22.43px 'PT Sans', sans-serif;
+  font-weight: bold;
+}
+/* line 85, ../scss/style.scss */
+article .personal-data ul {
+  margin: 0 0 4px 0;
+}
+/* line 91, ../scss/style.scss */
+article .personal-data form {
+  margin: 0 0 41px 0;
+}
+/* line 93, ../scss/style.scss */
+article .personal-data form a {
+  margin: 0 19px 0 0;
+  color: #014f98;
+}
+/* line 96, ../scss/style.scss */
+article .personal-data form a:hover {
+  text-decoration: none;
+}
+/* line 100, ../scss/style.scss */
+article .personal-data form label {
+  margin: 0 16px 0 0;
+  font: 23px 'PT Sans', sans-serif;
+  font-weight: bold;
+}
+/* line 104, ../scss/style.scss */
+article .personal-data form label input[type="radio"] {
+  display: none;
+}
+/* line 107, ../scss/style.scss */
+article .personal-data form label input[type="radio"] + span {
+  display: inline-block;
+  position: relative;
+  top: 16px;
+}
+/* line 114, ../scss/style.scss */
+article .personal-data form label input[type="radio"]:checked + span:after {
+  content: '';
+  position: absolute;
+  top: 13px;
+  left: 9px;
+}
+
+/* line 128, ../scss/style.scss */
+.skills {
+  margin: 0 0 66px 0;
+}
+/* line 130, ../scss/style.scss */
+.skills h1 {
+  margin: 0 0 10px 0;
+}
+/* line 133, ../scss/style.scss */
+.skills p {
+  margin: 0 0 19px 0;
+  padding: 0 0 0 19px;
+  width: 100%;
+  position: relative;
+  color: #3d3d3d;
+  font: 14px/22px 'PT Sans', sans-serif;
+}
+/* line 140, ../scss/style.scss */
+.skills p:before {
+  content: '*';
+  position: absolute;
+  left: 0px;
+  top: 9px;
+  font-size: 36px;
+}
+/* line 149, ../scss/style.scss */
+.skills form div {
+  float: left;
+  width: 33.33%;
+}
+/* line 153, ../scss/style.scss */
+.skills form div:last-child label {
+  margin-left: 26px;
+}
+/* line 157, ../scss/style.scss */
+.skills form div label {
+  padding: 0 0 0 27px;
+  margin: 0 0 10px 0;
+  position: relative;
+  display: block;
+  font: 21px/25px 'PT Sans', sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+/* line 165, ../scss/style.scss */
+.skills form div label input[type="checkbox"] {
+  display: none;
+}
+/* line 168, ../scss/style.scss */
+.skills form div label input[type="checkbox"] + span {
+  margin: 0 9px 0 0;
+  position: absolute;
+  left: 0px;
+  top: 5px;
+  display: inline-block;
+}
+/* line 177, ../scss/style.scss */
+.skills form div label input[type="checkbox"]:checked + span:after {
+  content: '';
+  position: absolute;
+  right: -5px;
+  bottom: 3px;
+}
+
+/* line 190, ../scss/style.scss */
+.js-skill {
+  margin: 0 0 46px 0;
+}
+/* line 192, ../scss/style.scss */
+.js-skill h1 {
+  margin: 0 0px 14px 10px;
+}
+/* line 195, ../scss/style.scss */
+.js-skill .nstSlider {
+  margin: 0 0 0 6px;
+  width: 100%;
+  height: 60px;
+  background: url(../img/slider.png);
+}
+/* line 200, ../scss/style.scss */
+.js-skill .nstSlider .leftGrip {
+  position: relative;
+  top: 10px;
+  width: 17px;
+  height: 14px;
+  background: url(../img/triangle.png);
+}
+/* line 208, ../scss/style.scss */
+.js-skill .description {
+  margin: -3px 0 0 0;
+  font: 13px/19px 'PT Sans', sans-serif;
+  font-weight: bold;
+}
+/* line 212, ../scss/style.scss */
+.js-skill .description li {
+  display: inline-block;
+  float: left;
+}
+/* line 215, ../scss/style.scss */
+.js-skill .description li:nth-child(1) {
+  margin: 0px 83px 0 13px;
+}
+/* line 218, ../scss/style.scss */
+.js-skill .description li:nth-child(2) {
+  margin: 0 61px 0 0;
+}
+/* line 221, ../scss/style.scss */
+.js-skill .description li:nth-child(3) {
+  margin: 0 81px 0 0;
+}
+
+/* line 229, ../scss/style.scss */
+footer .row-underline, footer article .personal-data ul li, article .personal-data ul footer li {
+  margin: 0 0 58px 0;
+  float: left;
+  font: 22.43px 'PT Sans', sans-serif;
+  font-weight: bold;
+}
+/* line 234, ../scss/style.scss */
+footer .row-underline span, footer article .personal-data ul li span, article .personal-data ul footer li span {
+  top: -14px;
+  margin: 0px 0 0 10px;
+  padding: 0 16px 0 0;
+}
+/* line 238, ../scss/style.scss */
+footer .row-underline span:after, footer article .personal-data ul li span:after, article .personal-data ul footer li span:after {
+  bottom: -6px;
+}
